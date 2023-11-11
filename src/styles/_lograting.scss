@@ -1,0 +1,17 @@
+.ratingsquare {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 375px) {
+    .ratingsquare {
+        width: 13.41px;
+        height: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    

@@ -1,0 +1,32 @@
+.apropo {
+    width: 86.11%;
+    margin: 0 100px 0 100px;
+    &-collapse {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+            &__list {
+                width: 82.5%;
+                margin: 40px 0 40px 0;
+                background: rgba(246, 246, 246, 1);
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .apropo {
+        width: 89.34%;
+        margin: 0 20px 0 20px;
+        &-collapse {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+                &__list {
+                    width: 100%;
+                    margin: 10px 0 10px 0;
+                    background: rgba(246, 246, 246, 1);
+            }
+        }
+    }}

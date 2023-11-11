@@ -1,0 +1,84 @@
+.header {
+    margin: 30px 6.94% 30px 6.94%;
+    width: 86.09%;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+        &__svg {
+            width: 211px;
+            height: 68px;
+        }
+    }
+    &-nav {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__home {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 24px;
+            color: rgba(255, 96, 96, 1);
+            &-u {
+                text-decoration: underline;
+            }
+        }
+        &__apropos {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 24px;
+            color: rgba(255, 96, 96, 1);
+            &-u {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .header {
+        margin: 20px 5.34% 20px 5.34%;
+        width: 89.2%;
+        height: 46.88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-logo {
+            height: 46.88px;
+            &__svg {
+                width: 145px;
+                height: 46.88px;
+                transform: scale(0.3) translate(-130px, -15px);
+            }
+        }
+        &-nav {
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__home {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 17.11px;
+                color: rgba(255, 96, 96, 1);
+                &-u {
+                    text-decoration: underline;
+                }
+            }
+            &__apropos {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 17.11px;
+                color: rgba(255, 96, 96, 1);
+                &-u {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
