@@ -16,10 +16,17 @@ function Home() {
         />
         <div className="home-card">
           <ul className="home-card-ul">
-            {locationList.map(({ id, title }) => (
+            {locationList.map(({ id, title, cover }) => (
               <Link to={`/Logement/${id}`} className="home-card-ul__a">
                 <li className="home-card-ul__li" key={id}>
-                  <p className="home-card-ul__li-p">{title}</p>
+                  <div className="home-card-ul__lidiv">
+                    <img
+                      className="home-card-ul__lidiv-img"
+                      src={cover}
+                      alt="cover"
+                    />
+                    <p className="home-card-ul__lidiv-p">{title}</p>
+                  </div>
                 </li>
               </Link>
             ))}

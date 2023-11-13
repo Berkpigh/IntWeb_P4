@@ -48,7 +48,7 @@ function Header() {
               : 'header-nav__apropos'
           }
         >
-          A propos
+          A Propos
         </a>
       </nav>
     </div>
